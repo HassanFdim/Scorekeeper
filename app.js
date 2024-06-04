@@ -30,6 +30,7 @@ p2Button.addEventListener("click", function () {
     p2Display.textContent = p2Score;
   }
 });
+
 winningScoreSelect.addEventListener("change", function () {
   winningScore = parseInt(this.value);
   reset();
