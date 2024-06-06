@@ -48,3 +48,4 @@ function reset() {
   p1Display.classList.remove("winner", "loser");
   p2Display.classList.remove("winner", "loser");
 }
+ 
