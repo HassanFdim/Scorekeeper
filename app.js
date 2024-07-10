@@ -29,13 +29,9 @@ function updateScores(player, opponent) {
   }
 }
 
-p1.button.addEventListener("click", function () {
-  updateScores(p1, p2);
-});
+p1.button.addEventListener("click", () => updateScores(p1, p2));
 
-p2.button.addEventListener("click", function () {
-  updateScores(p2, p1);
-});
+p2.button.addEventListener("click", () => updateScores(p2, p1));
 
 winningScoreSelect.addEventListener("change", function () {
   winningScore = parseInt(this.value);
